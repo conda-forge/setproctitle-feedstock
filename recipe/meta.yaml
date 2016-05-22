@@ -1,19 +1,22 @@
+{% set version = "1.1.10" %}
+
 package:
     name: setproctitle
-    version: "1.1.9"
+    version: {{ version }}
 
 source:
-    fn: setproctitle-1.1.9.tar.gz
-    url: https://pypi.python.org/packages/source/s/setproctitle/setproctitle-1.1.9.tar.gz
-    md5: 95d9e56c69437246460a20804961d70d
+    fn: setproctitle-{{ version }}.tar.gz
+    url: https://pypi.io/packages/source/s/setproctitle/setproctitle-{{ version }}.tar.gz
+    md5: 2dcdd1b761700a5a13252fea3dfd1977
 
 build:
-    script: python setup.py install
     number: 0
+    script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
     build:
         - python
+        - setuptools
     run:
         - python
 
@@ -29,3 +32,4 @@ about:
 extra:
     recipe-maintainers:
         - pelson
+        - ocefpaf

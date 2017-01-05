@@ -26,7 +26,8 @@ test:
 
 about:
     home: http://code.google.com/p/py-setproctitle/
-    license: BSD License
+    license: BSD 3-clause
+    license_family: BSD
     summary: 'A library to allow customization of the process title.'
 
 extra:

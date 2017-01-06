@@ -11,6 +11,18 @@ Summary: A library to allow customization of the process title.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/setproctitle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/setproctitle-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/setproctitle-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/setproctitle-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/setproctitle-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/setproctitle-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setproctitle/badges/version.svg)](https://anaconda.org/conda-forge/setproctitle)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setproctitle/badges/downloads.svg)](https://anaconda.org/conda-forge/setproctitle)
+
 Installing setproctitle
 =======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `setproctitle` available on your p
 ```
 conda search setproctitle --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/setproctitle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/setproctitle-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/setproctitle-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/setproctitle-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/setproctitle-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/setproctitle-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setproctitle/badges/version.svg)](https://anaconda.org/conda-forge/setproctitle)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setproctitle/badges/downloads.svg)](https://anaconda.org/conda-forge/setproctitle)
 
 
 Updating setproctitle-feedstock

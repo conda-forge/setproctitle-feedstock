@@ -3,7 +3,7 @@ About setproctitle
 
 Home: http://code.google.com/p/py-setproctitle/
 
-Package license: BSD License
+Package license: BSD 3-clause
 
 Feedstock license: BSD 3-Clause
 

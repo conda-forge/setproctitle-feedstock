@@ -14,14 +14,15 @@ Summary: A library to allow customization of the process title.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/setproctitle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/setproctitle-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/setproctitle-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/setproctitle-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/setproctitle-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/setproctitle-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/setproctitle-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/setproctitle-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setproctitle/badges/version.svg)](https://anaconda.org/conda-forge/setproctitle)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/setproctitle/badges/downloads.svg)](https://anaconda.org/conda-forge/setproctitle)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-setproctitle-green.svg)](https://anaconda.org/conda-forge/setproctitle) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/setproctitle.svg)](https://anaconda.org/conda-forge/setproctitle) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/setproctitle.svg)](https://anaconda.org/conda-forge/setproctitle) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/setproctitle.svg)](https://anaconda.org/conda-forge/setproctitle) |
 
 Installing setproctitle
 =======================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========

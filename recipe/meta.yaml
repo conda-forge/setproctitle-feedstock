@@ -1,33 +1,40 @@
+{% set name = "setproctitle" %}
 {% set version = "1.2" %}
 
+
 package:
-  name: setproctitle
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/setproctitle/setproctitle-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/setproctitle-{{ version }}.tar.gz
   sha256: 9b4e48722dd96cbd66d5bf2eab930fff8546cd551dd8d774c8a319448bd381a6
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  skip: true   # [py2k]
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - python
     - pip
+    - python
   run:
     - python
 
 test:
   imports:
     - setproctitle
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://code.google.com/p/py-setproctitle/
-  license: BSD 3-clause
+  license: BSD-3-Clause
   license_file: COPYRIGHT
   license_family: BSD
   summary: A library to allow customization of the process title.

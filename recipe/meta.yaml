@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 
 package:
   name: setproctitle
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/setproctitle/setproctitle-{{ version }}.tar.gz
-  sha256: 7dfb472c8852403d34007e01d6e3c68c57eb66433fb8a5c77b13b89a160d97df
+  sha256: ecf28b1c07a799d76f4326e508157b71aeda07b84b90368ea451c0710dbd32c0
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:

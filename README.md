@@ -1,13 +1,13 @@
 About setproctitle
 ==================
 
-Home: http://code.google.com/p/py-setproctitle/
+Home: https://github.com/dvarrazzo/py-setproctitle
 
-Package license: BSD 3-clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/setproctitle-feedstock/blob/main/LICENSE.txt)
 
-Summary: A library to allow customization of the process title.
+Summary: A Python module to customize the process title
 
 Current build status
 ====================

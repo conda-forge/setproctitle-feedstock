@@ -6,8 +6,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/setproctitle-{{ version }}.tar.gz
-  sha256: bc2bc917691c1537d5b9bca1468437176809c7e11e5694ca79a9ca12345dcb9e
+  url: https://pypi.org/packages/source/s/setproctitle/setproctitle-${{ version }}.tar.gz
+  sha256: BC2BC917691C1537D5B9BCA1468437176809C7E11E5694CA79A9CA12345DCB9E
 
 build:
   script: ${{ PYTHON }} -m pip install . -vv

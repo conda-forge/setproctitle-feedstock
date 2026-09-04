@@ -11,7 +11,7 @@ source:
 
 build:
   script: ${{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -29,10 +29,10 @@ requirements:
     - python
 
 tests:
- - python:
-    imports:
-      - setproctitle
-    pip_check: true
+  - python:
+      imports:
+        - setproctitle
+      pip_check: true
 
 about:
   homepage: https://github.com/dvarrazzo/py-setproctitle
